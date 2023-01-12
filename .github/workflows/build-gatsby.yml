@@ -16,6 +16,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm ci
+      - run: npm i
       - run: npm run build
       - run: aws s3 sync "public/" "s3://coding229148.react-app" --delete
