@@ -2,7 +2,7 @@ name: build-and-upload-to-s3
 run-name: Build and upload to S3
 on: [push]
 jobs:
-  push-to-code-build:
+  build-and-upload-to-s3:
     runs-on: ubuntu-latest
     steps:
       - name: Configure AWS Credentials
