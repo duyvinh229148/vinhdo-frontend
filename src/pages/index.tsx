@@ -54,7 +54,7 @@ const IndexPage: React.FC<PageProps> = () => {
               />
             </MediaQuery>
 
-            <Text>Application header</Text>
+            <Text>Application header 11</Text>
           </div>
         </Header>
       }
